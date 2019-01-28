@@ -6,13 +6,15 @@
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
+    margin-left: 120px;
     font-size: 36pt;
     text-decoration: none;
 }
 
 .content {
-    background-color: #00ffdd;
-    margin-left: 80px;
+    background-color: #ffffff;
+    margin-left: 270px;
+    margin-top:80px;
 }
 
 h1, h2, h3, h4 {

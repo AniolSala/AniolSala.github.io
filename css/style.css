@@ -119,13 +119,13 @@ figure {
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu ul {
     text-align: center;
-    margin: 0;
+    margin: 0px;
     padding: 0; }
     @media screen and (max-width: 768px) {
       #colorlib-aside #colorlib-main-menu ul {
         margin: 0 0 2em 0; } }
     #colorlib-aside #colorlib-main-menu ul li {
-      margin: 0 0 10px 0;
+      margin: 0 0 20px 0;
       padding: 0;
       list-style: none;
       font-size: 12px;
@@ -181,7 +181,7 @@ figure {
           transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
     right: 0;
     left: 0;
     font-size: 15px;
@@ -197,10 +197,10 @@ figure {
     #colorlib-aside .colorlib-footer span {
       display: block; }
     #colorlib-aside .colorlib-footer ul {
-      padding: 0;
-      margin: 0; }
+      padding: 0px 0px 300px 0px;
+      margin: 0px; }
       #colorlib-aside .colorlib-footer ul li {
-        padding: 0;
+        padding: 0px 0px;
         margin: 0;
         display: inline;
         list-style: none; }
@@ -424,6 +424,14 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-heading {
       margin-bottom: 3em; } }
+
+.colorlib-subheading {
+  font-size: 16px;
+  margin-bottom: 1em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  position: relative; }
 
 .heading-meta {
   margin-bottom: 15px;
